@@ -1,0 +1,20 @@
+{
+    "network settings":
+[
+    {
+        "ifname": "blub",
+        "addr": "192.0.0.3/24",
+        "mac": "AB:CD:EF:00",
+        "speed":"100",
+        "duplex": "full"
+    },
+    {
+        "ifname": "blub2",
+        "addr": "172.0.0.3/24",
+        "mac": "AB:CD:EF:00",
+        "speed":"100",
+        "duplex": "full",
+        "autoneg": "off"
+    }
+]
+}
