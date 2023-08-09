@@ -1,0 +1,29 @@
+version: '3'
+services: 
+  subsystem0:
+    build: 
+      context: ./
+      dockerfile: dockerfiles/subsystem0.dockerfile
+      image: subsystem0_client
+    hostname: subsystem0
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+  subsystem1:
+    build:
+      context: ./
+      dockerfile: dockerfiles/subsystem1.dockerfile
+      image: subsystem1_server
+    hostname: subsystem1
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+  subsystem2:
+    build: 
+      context: ./
+      dockerfile: dockerfiles/subsystem2.dockerfile
+      image: subsystem2_server
+    hostname: subsystem2
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
