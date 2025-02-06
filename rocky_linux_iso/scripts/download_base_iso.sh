@@ -1,0 +1,1 @@
+wget "https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-minimal.iso" -q --show-progress
