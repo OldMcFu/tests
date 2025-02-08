@@ -6,12 +6,12 @@ mkdir -p output
 #exit 0
 
 
-livemedia-creator --ks ../kickstart/minimal-rt-kde.ks \
+livemedia-creator --ks ../kickstart/minimal-rt-mate.ks \
   --no-virt \
   --resultdir output/rocky-rt-iso2/ \
-  --project="Rocky Linux" \
+  --project="Rocky Linux Mate RT" \
   --make-iso \
-  --volid Rocky-RT \
+  --volid Rocky-MATE-RT \
   --iso-only \
   --iso-name Rocky-9.5-x86_64-minimal.iso \
   --releasever=9 \
